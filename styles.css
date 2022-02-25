@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    border: 0px solid black;
+    height: 25px;
+    width: 25px;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.square {
+    background: grey;
+    border: solid;
+}
+
+#btn {
+   margin-top: 2%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
